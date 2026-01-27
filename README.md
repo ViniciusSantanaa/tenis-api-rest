@@ -1,2 +1,30 @@
-# tenis-api-rest
-API RESTful em Node.js utilizando Express e Mongoose para CRUD de produtos (tênis).
+# 👟 Tênis Store API
+
+API REST desenvolvida em Node.js utilizando Express e MongoDB (Mongoose) para gerenciamento de um produto (tênis).
+
+## 🚀 Tecnologias utilizadas
+
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- Dotenv
+
+## 📦 Funcionalidades
+
+- Cadastrar tênis
+- Listar todos os tênis
+- Buscar tênis por ID
+- Atualizar tênis
+- Deletar tênis
+
+## 📌 Rotas
+
+| Método | Rota | Descrição |
+|-------|------|-----------|
+| GET | /tenis | Lista todos os tênis |
+| GET | /tenis/:id | Busca tênis por ID |
+| POST | /tenis | Cadastra um tênis |
+| PUT | /tenis/:id | Atualiza um tênis |
+| DELETE | /tenis/:id | Remove um tênis |
+
