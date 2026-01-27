@@ -28,3 +28,16 @@ API REST desenvolvida em Node.js utilizando Express e MongoDB (Mongoose) para ge
 | PUT | /tenis/:id | Atualiza um tênis |
 | DELETE | /tenis/:id | Remove um tênis |
 
+## 🧪 Testes
+
+As rotas podem ser testadas utilizando o Postman.
+
+## 📚 Aprendizados
+
+Projeto desenvolvido com foco em:
+
+- Estruturação de API REST
+- Separação em camadas (config, models, controllers, routes)
+- Conexão com MongoDB
+- CRUD completo com validações
+
